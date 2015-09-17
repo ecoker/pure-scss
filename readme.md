@@ -34,8 +34,6 @@ Pure
 A set of small, responsive CSS modules that you can use in every web project.
 [http://purecss.io/][Pure]
 
-[![Build Status](http://img.shields.io/travis/yahoo/pure.svg?style=flat)][Build Status]
-
 [Pure]: http://purecss.io/
 [Bower]: http://bower.io/
 [Build Status]: https://travis-ci.org/yahoo/pure

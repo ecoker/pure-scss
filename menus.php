@@ -4,6 +4,7 @@
 <!--[if gte IE 10]><!--> <html> <!--<![endif]--> 
 <head>
 <?php
+$page = 'Menus';
 include('includes/head.php');
 ?>
 </head>

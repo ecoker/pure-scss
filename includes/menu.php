@@ -1,5 +1,5 @@
 <div class="menu horizontal dark">
-	<a href="/assets/public/" class="heading link">Pure SCSS</a>
+	<a href="/" class="heading link">Pure SCSS</a>
 	<ul class="list">
 		<li class="item"><a href="forms.php" class="link">Forms</a></li>
 		<li class="item"><a href="grids.php" class="link">Grids</a></li>

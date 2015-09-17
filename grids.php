@@ -4,6 +4,7 @@
 <!--[if gte IE 10]><!--> <html> <!--<![endif]--> 
 <head>
 <?php
+$page = 'Grid';
 include('includes/head.php');
 ?>
 </head>

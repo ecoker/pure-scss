@@ -1,0 +1,100 @@
+@import '../mixins/_grid.scss';
+
+.g, .g > .r {
+    letter-spacing: -0.31em; 
+    *letter-spacing: normal; 
+    *word-spacing: -0.43em; 
+    text-rendering: optimizespeed; 
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+    -ms-align-content: flex-start;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+}
+
+.opera-only :-o-prefocus,
+.g {
+    word-spacing: -0.43em;
+}
+
+.g {
+    [class*="u-"] {
+        font-family: sans-serif;
+        display: inline-block;
+        *display: inline; 
+        zoom: 1;
+        letter-spacing: normal;
+        word-spacing: normal;
+        vertical-align: top;
+        text-rendering: auto;
+    }
+}
+
+.g, [class*="u-"] {
+  box-sizing:border-box;
+}
+
+.g [class*="u-"] {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+@include grid();
+
+
+
+
+.g > .r { 
+    width:100%;
+}
+.g {
+    &.pad, &.pad .r {
+        > [class*="u-"] {
+          padding:1em;
+        }
+    }
+    &.space, &.space > .r {
+        justify-content:space-between;
+        @include grid('', 1em);
+    }
+    &.space > [class*="u-"] {
+        margin-bottom:1em;
+    }
+    &.center, &.center > .r {
+        justify-content: center;
+    }
+    &.center.space, &.center.space > .r {
+        [class*="u-"]:not(:last-of-type) {
+            margin-right:1em;
+        }
+    }
+    &.center-text {
+        [class*="u-"] {
+            text-align:center;
+        }
+    }
+}
+
+
+.lt-ie10 {
+    .g {
+        &.space {
+            text-align:justify;
+        }
+        &.space:after {
+            content:'';
+            display:inline-block;
+            width:100%;
+        }
+        &.center, &.center .r {
+            text-align:center;
+        }
+    }
+}

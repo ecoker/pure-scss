@@ -15,6 +15,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 @import 'partials/buttons';
 @import 'partials/menus';
 @import 'partials/tables';
+@import 'variables/globals';
 
 html {
   box-sizing: border-box;
@@ -30,6 +31,17 @@ html {
 
 .demo {
 	.g, [class*="u-"] {
-		background:rgba(0,0,0,.05);
+		// background:rgba(0,0,0,.05);
+	}
+}
+.u-divider-left {
+	border-left:1px solid rgba(0,0,0,.1);
+	margin-left:-1px;
+}
+
+@media screen and (max-width: $sm) {
+	[class*="u-divider"] {
+		border:none;
+		margin-left:0;
 	}
 }

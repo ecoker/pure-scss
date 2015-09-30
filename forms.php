@@ -30,6 +30,37 @@ include('includes/menu.php');
 </form>
 </code></pre>
 
+<pre class="line-numbers"><code class="language-markup" title="Fancy Signup">
+<div class="g pad">
+    <div class="u-1-2 u-sm-1-1">
+        <div class="g pad">
+          <div class="u-1">
+            <h2>Sign In</h2>
+            <p>Have a rewards account? Sign in now to earn up to <span class="strong-type">114 points</span> on your
+                order.</p>
+            <form class="stacked">
+                <label for="email">Email</label>
+                <input class="u-1" id="email" type="email" placeholder="Email">
+    ​
+                <label for="password">Password</label>
+                <input class="u-1" id="password" type="password" placeholder="Password">
+            </form>
+          </div>
+        </div>
+    </div>
+    <div class="u-1-2 u-sm-1-1 u-divider-left">
+        <div class="g pad">
+          <div class="u-1">
+            <h2>Guest User</h2>
+    ​
+            <p>Continue as a Guest and we can sign you up for a new account during checkout.</p>
+            <a href="#">Continue as Guest</a>
+          </div>
+        </div>
+    </div>
+</div>
+</code></pre>
+
 <pre class="line-numbers"><code class="language-markup" title="buttons">
 <a class="button" href="#">A Pure Button</a>
 <button>A Pure Button</button>

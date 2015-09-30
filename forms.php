@@ -211,7 +211,7 @@ include('includes/menu.php');
 </code></pre>
 
 <pre class="line-numbers"><code class="language-markup" title="input grid">
-<form class="g">
+<form class="g space">
 	<div class="u-1-4">
 		<input class="u-1" type="text" placeholder=".u-1-4">
 	</div>

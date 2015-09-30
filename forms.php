@@ -31,10 +31,10 @@ include('includes/menu.php');
 </code></pre>
 
 <pre class="line-numbers"><code class="language-markup" title="Fancy Signup">
-<div class="g pad">
+<div class="g">
     <div class="u-1-2 u-sm-1-1">
-        <div class="g pad">
-          <div class="u-1">
+        <div class="g center">
+          <div class="u-7-8">
             <h2>Sign In</h2>
             <p>Have a rewards account? Sign in now to earn up to <span class="strong-type">114 points</span> on your
                 order.</p>
@@ -49,8 +49,8 @@ include('includes/menu.php');
         </div>
     </div>
     <div class="u-1-2 u-sm-1-1 u-divider-left">
-        <div class="g pad">
-          <div class="u-1">
+        <div class="g center">
+          <div class="u-7-8">
             <h2>Guest User</h2>
     ​
             <p>Continue as a Guest and we can sign you up for a new account during checkout.</p>

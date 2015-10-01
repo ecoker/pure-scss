@@ -84,12 +84,14 @@ include('includes/menu.php');
   <div class="u-2-5"><p>2/5</p></div>
   <div class="u-1-5"><p>1/5</p></div>
   <div class="u-2-5"><p>2/5</p></div>
-  <div class="u-1-6"><p>1/6</p></div>
-  <div class="u-1-6"><p>1/6</p></div>
-  <div class="u-1-6"><p>1/6</p></div>
-  <div class="u-1-6"><p>1/6</p></div>
-  <div class="u-1-6"><p>1/6</p></div>
-  <div class="u-1-6"><p>1/6</p></div>
+  <div class="r">
+    <div class="u-1-6"><p>1/6</p></div>
+    <div class="u-1-6"><p>1/6</p></div>
+    <div class="u-1-6"><p>1/6</p></div>
+    <div class="u-1-6"><p>1/6</p></div>
+    <div class="u-1-6"><p>1/6</p></div>
+    <div class="u-1-6"><p>1/6</p></div>
+  </div>
   <div class="u-1-4"><p>1/4</p></div>
   <div class="u-1-4"><p>1/4</p></div>
   <div class="u-1-4"><p>1/4</p></div>

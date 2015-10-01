@@ -8,7 +8,7 @@ var watch        = require('gulp-watch');
  
 gulp.task('stream', function () {
     return gulp.src('css/**/*.css')
-        .pipe(watch('css/**/*.css'))
+        .pipe(watch('css/**/*.scss'))
         .pipe(gulp.dest('build'));
 });
 

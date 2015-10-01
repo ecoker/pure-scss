@@ -32,7 +32,7 @@ include('includes/menu.php');
 
 <pre class="line-numbers"><code class="language-markup" title="Fancy Signup">
 <div class="g pad">
-    <div class="u-1-2 u-sm-1-1">
+    <div class="u-1 u-sm-1-2">
         <div class="g center">
           <div class="u-7-8">
             <h2>Sign In</h2>
@@ -48,7 +48,7 @@ include('includes/menu.php');
           </div>
         </div>
     </div>
-    <div class="u-1-2 u-sm-1-1 u-divider-left">
+    <div class="u-1 u-sm-1-2 u-divider-left">
         <div class="g center">
           <div class="u-7-8">
             <h2>Guest User</h2>

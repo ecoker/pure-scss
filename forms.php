@@ -31,7 +31,7 @@ include('includes/menu.php');
 </code></pre>
 
 <pre class="line-numbers"><code class="language-markup" title="Fancy Signup">
-<div class="g">
+<div class="g pad">
     <div class="u-1-2 u-sm-1-1">
         <div class="g center">
           <div class="u-7-8">

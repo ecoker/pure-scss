@@ -15,6 +15,12 @@ include('includes/head.php');
 include('includes/menu.php');
 ?>
 
+<pre class="line-numbers"><code class="language-markup" title="WHAT'S MY PREFIX?">
+<div class="g center-text">
+  <div class="u-1 sizedisplay"></div>
+</div>
+</code></pre>
+
 <pre class="line-numbers"><code class="language-markup" title="Basic Grid">
 <div class="g">
   <div class="u-1-3"><p>Thirds</p></div>
@@ -57,14 +63,14 @@ include('includes/menu.php');
 <div class="g space">
   <div class="u-1-2">
     <div class="g pad space">
-      <div class="u-1-2 u-sm-1">Block</div>
-      <div class="u-1-2 u-sm-1">Block</div>
+      <div class="u-1 u-sm-1-2">Block</div>
+      <div class="u-1 u-sm-1-2">Block</div>
     </div>    
   </div>
   <div class="u-1-2">
     <div class="g pad space">
-      <div class="u-1-2">Block</div>
-      <div class="u-1-2">Block</div>
+      <div class="u-1 u-sm-1-2">Block</div>
+      <div class="u-1 u-sm-1-2">Block</div>
     </div>    
   </div>
 </div>
@@ -93,9 +99,9 @@ include('includes/menu.php');
 
 <pre class="line-numbers"><code class="language-markup" title="Responsive Grid">
 <div class="g pad center-text">
-  <div class="u-1-3 u-sm-1 u-lg-1-6"><p>Block</p></div>
-  <div class="u-1-3 u-sm-1-2 u-lg-1-6"><p>Block</p></div>
-  <div class="u-1-3 u-sm-1-2 u-lg-1-6"><p>Block</p></div>
+  <div class="u-1 u-sm-1-3 u-lg-1-6"><p>Block</p></div>
+  <div class="u-1-2 u-sm-1-3 u-lg-1-6"><p>Block</p></div>
+  <div class="u-1-2 u-sm-1-3 u-lg-1-6"><p>Block</p></div>
   <div class="u-1-3 u-sm-1-3 u-lg-1-6"><p>Block</p></div>
   <div class="u-1-3 u-sm-1-3 u-lg-1-6"><p>Block</p></div>
   <div class="u-1-3 u-sm-1-3 u-lg-1-6"><p>Block</p></div>
@@ -115,17 +121,17 @@ include('includes/menu.php');
 
 <pre class="line-numbers"><code class="language-markup" title="The Works">
 <div class="g center pad center-text">
-  <div class="u-1-5 u-sm-1 u-lg-1-5"><p>Block</p></div>
-  <div class="u-2-5 u-sm-1 u-lg-1-2">
+  <div class="u-1 u-sm-1-5"><p>Block</p></div>
+  <div class="u-1 u-sm-2-5 u-lg-1-2">
     <div class="g pad space">    
       <div class="r">
-        <div class="u-1-3 u-sm-1">Block</div>
-        <div class="u-1-3 u-sm-1">Block</div>
-        <div class="u-1-3 u-sm-1">Block</div>
+        <div class="u-1 u-sm-1-3">Block</div>
+        <div class="u-1 u-sm-1-3">Block</div>
+        <div class="u-1 u-sm-1-3">Block</div>
       </div>
     </div>
   </div>
-  <div class="u-1-5 u-sm-1 u-lg-1-5"><p>Block</p></div>
+  <div class="u-1 u-sm-1-5"><p>Block</p></div>
 </div>
 </code></pre>
 

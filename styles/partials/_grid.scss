@@ -5,12 +5,8 @@
 	*letter-spacing: normal; 
 	*word-spacing: -0.43em; 
 	text-rendering: optimizespeed; 
-	display: -webkit-flex;
-	-webkit-flex-flow: row wrap;
-	display: -ms-flexbox;
-	-ms-flex-flow: row wrap;
-	-ms-align-content: flex-start;
-	-webkit-align-content: flex-start;
+	display:flex;
+	flex-flow: row wrap;
 	align-content: flex-start;
 }
 
@@ -63,6 +59,8 @@
 	}
 	&.space, &.space > .r {
 		justify-content:space-between;
+		display: flex;
+		flex-flow: row wrap;
 		@include grid('', 1em);
 	}
 	&.left, &.left > .r {

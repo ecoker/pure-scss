@@ -1,0 +1,47 @@
+@import 'variables/globals';
+
+/* This is for the demo --- */
+.content {
+	padding:1em;
+}
+
+.demo {
+	.g, [class*="u-"] {
+		background:rgba(0,0,0,.05);
+	}
+}
+.u-divider-left {
+	border-left:1px solid rgba(0,0,0,.1);
+	margin-left:-1px;
+}
+
+.sizedisplay {
+	padding:1em 0;
+	&:after {
+		content:'U-*';
+		@media screen and (min-width: $sm) {
+		content:'U-SM*';
+		}
+		@media screen and (min-width: $md) {
+		content:'U-MD*';
+		}
+		@media screen and (min-width: $lg) {
+		content:'U-LG*';
+		}
+		@media screen and (min-width: $xl) {
+		content:'U-XL*';
+		}
+	}
+}
+
+@media screen and (max-width: $sm) {
+	[class*="u-divider"] {
+		border:none;
+		margin-left:0;
+	}
+	form, fieldset {
+		&.g, .g, [class*="u-"]:not(.button) {
+			background:white;
+		}
+	}
+}
